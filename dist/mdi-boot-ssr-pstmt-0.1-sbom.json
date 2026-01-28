@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:8d9786e7-3458-4f53-a9c7-d344fd4ab3e8",
+  "serialNumber" : "urn:uuid:f8f32d5d-294f-4600-9d80-c689712432de",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-01-27T04:41:41Z",
+    "timestamp" : "2026-01-28T01:14:44Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -48,11 +48,11 @@
     ],
     "component" : {
       "group" : "kr.co.mdi",
-      "name" : "mdi-boot-ssr-pstmt-legacy",
+      "name" : "mdi-boot-ssr-pstmt",
       "version" : "0.1",
       "description" : "mobile-device-info",
       "licenses" : [ ],
-      "purl" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt-legacy@0.1?type=jar",
+      "purl" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt@0.1?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -64,7 +64,7 @@
         }
       ],
       "type" : "application",
-      "bom-ref" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt-legacy@0.1?type=jar"
+      "bom-ref" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt@0.1?type=jar"
     }
   },
   "components" : [
@@ -4869,6 +4869,7 @@
       "name" : "mysql-connector-j",
       "version" : "8.0.32",
       "description" : "JDBC Type 4 driver for MySQL.",
+      "scope" : "optional",
       "hashes" : [
         {
           "alg" : "MD5",
@@ -6066,7 +6067,7 @@
   ],
   "dependencies" : [
     {
-      "ref" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt-legacy@0.1?type=jar",
+      "ref" : "pkg:maven/kr.co.mdi/mdi-boot-ssr-pstmt@0.1?type=jar",
       "dependsOn" : [
         "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@3.5.5?type=jar",
         "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf@3.5.5?type=jar",

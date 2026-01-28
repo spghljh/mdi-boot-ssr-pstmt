@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>kr.co.mdi</groupId>
-    <artifactId>mdi-boot-ssr-pstmt-legacy</artifactId>
+    <artifactId>mdi-boot-ssr-pstmt</artifactId>
     <version>0.1</version>
     <name>mdi-boot-app</name>
     <description>mobile-device-info</description>
@@ -88,11 +88,18 @@
             <version>19.3.0.0</version>
         </dependency>
 
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.32</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>mysql</groupId>-->
+<!--            <artifactId>mysql-connector-java</artifactId>-->
+<!--            <version>8.0.32</version>-->
+<!--        </dependency>-->
+        
+		<dependency>
+		    <groupId>com.mysql</groupId>
+		    <artifactId>mysql-connector-j</artifactId>
+		    <version>8.0.32</version>
+		</dependency>
+
 
         <dependency>
             <groupId>org.postgresql</groupId>
